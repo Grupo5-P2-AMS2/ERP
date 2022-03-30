@@ -1,0 +1,36 @@
+OBJECT Table 50044 Tasks
+{
+  OBJECT-PROPERTIES
+  {
+    Date=25/03/22;
+    Time=19:46:40;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Course._id          ;Text250       ;Description=PK }
+    { 2   ;   ;tasks.ID            ;Integer       ;Description=PK }
+    { 3   ;   ;tasks.type          ;Text250        }
+    { 4   ;   ;tasks.title         ;Text250        }
+    { 5   ;   ;tasks.description   ;Text250        }
+    { 6   ;   ;tasks.order         ;Text250        }
+  }
+  KEYS
+  {
+    {    ;tasks.ID                                ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

@@ -1,0 +1,38 @@
+OBJECT Table 50045 Elements
+{
+  OBJECT-PROPERTIES
+  {
+    Date=25/03/22;
+    Time=19:44:51;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Course._id          ;Text250        }
+    { 2   ;   ;elements.ID         ;Integer       ;Description=PK }
+    { 3   ;   ;elements.type       ;Text250        }
+    { 4   ;   ;elements.title      ;Text250        }
+    { 5   ;   ;elements.description;Text250        }
+    { 6   ;   ;elements.order      ;Integer        }
+    { 7   ;   ;elements.content    ;Text250        }
+    { 8   ;   ;elements.file       ;Text250        }
+  }
+  KEYS
+  {
+    {    ;elements.ID                             ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

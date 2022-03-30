@@ -1,0 +1,40 @@
+OBJECT Table 50041 VR_Tasks_Completions
+{
+  OBJECT-PROPERTIES
+  {
+    Date=25/03/22;
+    Time=19:50:56;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Course._id          ;Text250        }
+    { 2   ;   ;tasks.ID            ;Integer        }
+    { 3   ;   ;vr_tasks.completions.studentID;Integer }
+    { 4   ;   ;vr_tasks.completions.posit.dat;Text250 }
+    { 5   ;   ;vr_tasks.completions.auto.pass;Integer }
+    { 6   ;   ;vr_tasks.completions.auto.fail;Integer }
+    { 7   ;   ;vr_tasks.completions.auto.comm;Text250 }
+    { 8   ;   ;vr_tasks.completions.grade;Integer  }
+    { 9   ;   ;vr_tasks.completions.feedback;Integer }
+  }
+  KEYS
+  {
+    {    ;tasks.ID                                ;Clustered=Yes }
+    {    ;vr_tasks.completions.studentID           }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

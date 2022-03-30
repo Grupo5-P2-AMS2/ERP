@@ -1,0 +1,33 @@
+OBJECT Table 50046 Suscribers.Students
+{
+  OBJECT-PROPERTIES
+  {
+    Date=25/03/22;
+    Time=18:31:58;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Course._id          ;Text250       ;Description=PK }
+    { 2   ;   ;Suscribers.Id       ;Integer       ;Description=PK }
+  }
+  KEYS
+  {
+    {    ;Course._id                              ;Clustered=Yes }
+    {    ;Suscribers.Id                            }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
