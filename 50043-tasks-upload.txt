@@ -1,0 +1,38 @@
+OBJECT Table 50043 Tasks.Upload
+{
+  OBJECT-PROPERTIES
+  {
+    Date=25/03/22;
+    Time=19:47:27;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Course._id          ;Text250        }
+    { 2   ;   ;tasks.ID            ;Integer        }
+    { 3   ;   ;tasks.upload.ID     ;Integer       ;Description=PK }
+    { 4   ;   ;tasks.upload.StudentID;Integer      }
+    { 5   ;   ;tasks.upload.text   ;Text250        }
+    { 6   ;   ;tasks.upload.file   ;Text250        }
+    { 7   ;   ;tasks.upload.grade  ;Text250        }
+    { 8   ;   ;tasks.upload.feedback;Text250       }
+  }
+  KEYS
+  {
+    {    ;tasks.upload.ID                         ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
