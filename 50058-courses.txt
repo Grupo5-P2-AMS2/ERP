@@ -1,0 +1,32 @@
+OBJECT Table 50048 Courses
+{
+  OBJECT-PROPERTIES
+  {
+    Date=25/03/22;
+    Time=18:30:14;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Course._id          ;Text250       ;Description=PK }
+    { 2   ;   ;Course.description  ;Text250        }
+  }
+  KEYS
+  {
+    {    ;Course._id                              ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

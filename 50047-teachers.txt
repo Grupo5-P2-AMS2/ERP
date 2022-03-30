@@ -1,0 +1,32 @@
+OBJECT Table 50047 Suscribers.Teachers
+{
+  OBJECT-PROPERTIES
+  {
+    Date=25/03/22;
+    Time=18:49:44;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Course._id          ;Text250        }
+    { 2   ;   ;Suscribers.Id       ;Integer       ;Description=PK }
+  }
+  KEYS
+  {
+    {    ;Suscribers.Id                           ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
