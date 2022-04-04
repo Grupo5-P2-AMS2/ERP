@@ -14,15 +14,15 @@ OBJECT Table 50041 VR_Tasks_Completions
   {
     { 1   ;   ;Course._id          ;Text250        }
     { 2   ;   ;tasks.ID            ;Integer        }
-    { 3   ;   ;vr_tasks.completions.studentID;Integer }
-    { 4   ;   ;vr_tasks.completions.exeVersID;Integer }
-    { 5   ;   ;vr_tasks.completions.perfor.dat;Text250 }
-    { 6   ;   ;vr_tasks.completions.auto.pass;Integer }
-    { 7   ;   ;vr_tasks.completions.auto.fail;Integer }
-    { 8   ;   ;vr_tasks.completions.auto.scor;Integer }
-    { 9   ;   ;vr_tasks.completions.auto.comm;Text250 }
-    { 10   ;   ;vr_tasks.completions.grade;Integer  }
-    { 11   ;   ;vr_tasks.completions.feedback;Text250 }
+    { 3   ;   ;vr_tasks.completions.studentID;Integer   }
+    { 4   ;   ;vr_tasks.completions.exeVersID;Integer   }
+    { 5   ;   ;vr_tasks.completions.perfor.dat;Text250  }
+    { 6   ;   ;vr_tasks.completions.auto.pass;Integer   }
+    { 7   ;   ;vr_tasks.completions.auto.fail;Integer   }
+    { 8   ;   ;vr_tasks.completions.auto.scor;Integer   }
+    { 9   ;   ;vr_tasks.completions.auto.comm;Text250   }
+    { 10   ;   ;vr_tasks.completions.grade;Integer      }
+    { 11   ;   ;vr_tasks.completions.feedback;Text250   }
   }
   KEYS
   {
