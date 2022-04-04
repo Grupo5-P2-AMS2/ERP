@@ -12,11 +12,13 @@ OBJECT Table 50042 VR_Tasks
   }
   FIELDS
   {
-    { 1   ;   ;Course._id          ;Text250        }
-    { 2   ;   ;tasks.ID            ;Integer       ;Description=PK }
-    { 3   ;   ;vr_tasks.VRexID     ;Integer       ;Description=PK }
-    { 4   ;   ;vr_tasks.versionID  ;Integer        }
-    { 5   ;   ;vr_tasks.pollID     ;Integer        }
+    { 1   ;   ;Course._id             ;Text250        }
+    { 2   ;   ;tasks.ID               ;Integer       ;Description=PK }
+    { 3   ;   ;Course.title           ;Text250        }
+    { 4   ;   ;Course.description     ;Text250        }
+    { 5   ;   ;vr_tasks.VRexerciseID  ;Integer        }
+    { 6   ;   ;vr_tasks.minExeVersID  ;Integer        }
+    { 7   ;   ;vr_tasks.pollID        ;Integer        }
   }
   KEYS
   {
